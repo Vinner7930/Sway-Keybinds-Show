@@ -1,0 +1,9 @@
+#creator : https://github.com/Vinner7930   @Vinner7930
+
+touch ~/SwayCheatSprite.txt  #checking the file 
+
+echo | grep -n "bindsym" ~/.config/sway/config > ~/SwayCheatSprite.txt && echo " " >> ~/.config/swa/config   # write the binds in "~/SwayCheatSprite.txt"
+
+#grep -n "bindsym" ~/.config/sway/config
+
+cat ~/SwayCheatSprite.txt   #shows the keybinds
